@@ -903,6 +903,16 @@ footer .owner p a {
   box-sizing: border-box;
 }
 
+
+/**
+ * Image list
+ */
+
+.imageList {float:left;width:100%}
+.imageList ul{margin:0;padding:0}
+.imageList ul li{list-style-type:none;display:inline;padding:0; float:left;}
+.imageList ul li img{width:150px;display:block;padding:0 10px}
+
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
